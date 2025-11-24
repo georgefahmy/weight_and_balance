@@ -2,7 +2,7 @@ import base64
 import json
 import os
 
-import PySimpleGUI as sg
+import FreeSimpleGUI as sg
 from dotmap import DotMap
 
 from src.functions import calc_cg, draw_graph, load_params, set_graph_grid

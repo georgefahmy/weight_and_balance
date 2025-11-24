@@ -1,7 +1,7 @@
 import json
 
 import numpy as np
-import PySimpleGUI as sg
+import FreeSimpleGUI as sg
 from dotmap import DotMap
 
 

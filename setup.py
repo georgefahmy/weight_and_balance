@@ -29,7 +29,7 @@ DATA_FILES = [
 ]
 OPTIONS = {
     "includes": [
-        "PySimpleGUI",
+        "FreeSimpleGUI",
         "numpy",
     ],
     "excludes": [

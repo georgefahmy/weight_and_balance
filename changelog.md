@@ -6,6 +6,6 @@ Download the WeightAndBalance.dmg file below.
 
 # Changelog
 
-Initial Release
+Migrate from PySimpleGUI dependency to FreeSimpleGUI
 
-### [v1.0.0] - 2025-11-24
+### [v1.1.0] - 2025-11-24
