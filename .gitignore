@@ -3,3 +3,4 @@ build_app.sh
 build/
 dist/
 __pycache__
+.DS_Store
