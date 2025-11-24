@@ -1,8 +1,11 @@
 import re
+import sys
 
 from bs4 import BeautifulSoup
 from markdown import markdown
 from setuptools import setup
+
+sys.setrecursionlimit(2000)
 
 VERSION = re.compile("[^0-9.]").sub(
     "",
@@ -34,7 +37,7 @@ OPTIONS = {
         "csv_stats.py",
         "*.gif",
     ],
-    "iconfile": "/Users/GFahmy/Documents/projects/LL/resources/wb_logo.icns",
+    "iconfile": "/Users/GFahmy/Documents/projects/weight_and_balance/resources/wb_logo.icns",
     "arch": "universal2",
 }
 

@@ -9,7 +9,7 @@ if [ $INVENV == "True" ]; then
 else
     rm -rf build dist
     /Library/Frameworks/Python.framework/Versions/3.12/bin/pip3 install -r requirements.txt
-    /Library/Frameworks/Python.framework/Versions/3.12/bin/python3 setup.py py2app
+    /Library/Frameworks/Python.framework/Versions/3.12/bin/python3 setup.py py2app -A
     cd dist
     ln -s /Applications/
     echo "Creating Installation Image"

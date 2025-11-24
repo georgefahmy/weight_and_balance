@@ -1,4 +1,6 @@
+import base64
 import json
+import os
 
 import PySimpleGUI as sg
 from dotmap import DotMap
@@ -9,9 +11,13 @@ from src.gui_layout import layout
 # sg.theme("Reddit")
 # sg.set_options(font=("Arial", 16))
 
+WD = os.getcwd()
 
 params = load_params()
 results = calc_cg(params.Default)
+icon_file = f"{WD}/resources/wb_logo.png"
+sg.set_options(icon=base64.b64encode(open(str(icon_file), "rb").read()))
+
 window = sg.Window("Weight & Balance", layout=layout, finalize=True)
 
 
