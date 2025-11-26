@@ -14,7 +14,7 @@ else
     ln -s /Applications/
     echo "Creating Installation Image"
     hdiutil create -srcfolder . -volname "WeightAndBalance" WeightAndBalance.dmg
-    rm -rf "WeightAndBalance.app"
+    rm -rf "Weight And Balance.app"
     rm ./Applications
     cd ..
     echo "Creating release $VERSION and uploading app to github"

@@ -1,7 +1,7 @@
 wb_logo.png
 VERSION
-build_app.sh
 build/
 dist/
 __pycache__
 .DS_Store
+build_app.sh
